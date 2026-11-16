@@ -16,8 +16,8 @@ The CI/CD pipeline automatically builds, tests, and deploys the application when
 
 ## Project Repositories
 
-- **GitHub:** https://github.com/gilllavish25/kanban-dashboard
-- **Docker Hub:** https://hub.docker.com/r/gilllavish25/lavish-kanban-dashboard
+- **GitHub:** https://github.com/raghavyash21/kanban-dashboard-devops.git
+
 
 ## Technologies Used
 
@@ -100,11 +100,6 @@ The Jenkins pipeline includes the following stages:
 
 Docker images are tagged using Jenkins build numbers to maintain version history.
 
-Example:
-
-- `gilllavish25/lavish-kanban-dashboard:26`
-- `gilllavish25/lavish-kanban-dashboard:latest`
-
 ## GitHub Webhook Integration
 
 GitHub Webhooks are configured to trigger Jenkins automatically whenever a new commit is pushed to the `main` branch.
@@ -136,7 +131,7 @@ The isolated rollback test successfully detected a simulated failure, restored t
 Clone the repository:
 
 ```bash
-git clone https://github.com/gilllavish25/kanban-dashboard.git
+git clone https://github.com/raghavyash21/kanban-dashboard-devops.git
 cd kanban-dashboard
 ```
 
@@ -206,6 +201,6 @@ This project demonstrates practical experience with:
 
 ## Author
 
-**Lavish Gill**
+**Yash Vardhan Raghav**
 
-GitHub: https://github.com/gilllavish25
+GitHub: https://github.com/raghavyash21
